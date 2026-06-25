@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  VITE_FORMSPREE_FORM_ID = "xdarkzpd"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
