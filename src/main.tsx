@@ -8,6 +8,12 @@ const Analytics = lazy(() =>
   import("@vercel/analytics/react").then((mod) => ({ default: mod.Analytics })),
 );
 
+const SpeedInsights = lazy(() =>
+  import("@vercel/speed-insights/react").then((mod) => ({
+    default: mod.SpeedInsights,
+  })),
+);
+
 const rootEl = document.getElementById("root");
 
 if (rootEl) {
@@ -17,6 +23,7 @@ if (rootEl) {
         <AegisLandingPage />
         <Suspense fallback={null}>
           <Analytics />
+          <SpeedInsights />
         </Suspense>
       </ErrorBoundary>
     </StrictMode>,
