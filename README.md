@@ -6,7 +6,7 @@ Marketing site for **AEGIS** (Auditable Eligibility Governance & Integrity Servi
 
 **Tagline:** Compliance without Compromise
 
-Research partnership between the University of Manchester and the University of Sheffield, supported by the [CyberASAP programme](https://www.cyberasap.co.uk/).
+A University of Sheffield project, supported by the [CyberASAP programme](https://www.cyberasap.co.uk/).
 
 ---
 

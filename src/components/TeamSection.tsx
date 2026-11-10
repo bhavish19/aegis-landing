@@ -11,11 +11,11 @@ export function TeamSection() {
         <SectionHeading
           eyebrow="Research team"
           title="Built in the lab, not a slide deck"
-          description="Lead investigators from Manchester and Sheffield, with commercial development led from Sheffield."
+          description="Lead investigator and commercial development based at the University of Sheffield."
           centered
         />
 
-        <div className="grid gap-4 md:grid-cols-3">
+        <div className="mx-auto grid max-w-3xl gap-4 md:grid-cols-2">
           {TEAM_MEMBERS.map((member) => (
             <Panel key={member.name}>
               <div className="overflow-hidden">

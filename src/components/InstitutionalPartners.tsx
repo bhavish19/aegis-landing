@@ -14,12 +14,6 @@ function UniversityLogoImage({ src, alt }: { src: string; alt: string }) {
 export function InstitutionalPartners({ variant = "full" }: { variant?: "full" | "compact" }) {
   const logos = [
     {
-      id: "manchester" as const,
-      src: ASSETS.universityManchester,
-      alt: "The University of Manchester",
-      name: "University of Manchester",
-    },
-    {
       id: "sheffield" as const,
       src: ASSETS.universitySheffield,
       alt: "University of Sheffield",
@@ -45,13 +39,12 @@ export function InstitutionalPartners({ variant = "full" }: { variant?: "full" |
   return (
     <div className="mt-14 border-t border-white/[0.06] pt-12">
       <p className="mb-8 text-center text-sm text-aegis-slate">
-        Research partnership between the University of Manchester and the
-        University of Sheffield
+        A University of Sheffield research project
       </p>
 
-      <div className="grid gap-5 sm:grid-cols-2">
+      <div className="mx-auto flex max-w-md flex-col items-center gap-3">
         {logos.map((logo) => (
-          <div key={logo.name} className="flex flex-col items-center gap-3">
+          <div key={logo.name} className="flex w-full flex-col items-center gap-3">
             <div className={cn(PARTNER_LOGO_SURFACE, logoBoxClass)}>
               <UniversityLogoImage src={logo.src} alt={logo.alt} />
             </div>

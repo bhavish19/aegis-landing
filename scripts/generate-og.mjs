@@ -42,7 +42,7 @@ const svg = `<?xml version="1.0" encoding="UTF-8"?>
   <rect x="0" y="0" width="6" height="630" fill="#2a9d8f"/>
 
   <text x="72" y="88" fill="#8ba5bf" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="0.02em">
-    University of Manchester × University of Sheffield
+    University of Sheffield
   </text>
 
   <text x="72" y="168" fill="#3bbfad" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-style="italic">

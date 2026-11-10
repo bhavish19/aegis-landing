@@ -1,9 +1,7 @@
 export const ASSETS = {
   aegisLogo: "/assets/aegis-logo.png",
   cyberAsap: "/assets/cyber-asap.png",
-  universityManchester: "/assets/university-manchester.png",
   universitySheffield: "/assets/university-sheffield.png",
-  teamBernardo: "/assets/team-bernardo.jpg",
   teamBehzad: "/assets/team-behzad.jpg",
   teamBhavish: "/assets/team-bhavish.jpg",
 } as const;
@@ -34,15 +32,7 @@ export const NAV_LINKS = [
 
 export const TEAM_MEMBERS = [
   {
-    role: "Lead Principal Investigator (Lead PI)",
-    name: "Dr. Bernardo Magri",
-    photo: ASSETS.teamBernardo,
-    linkedin: "https://www.linkedin.com/in/bernardo-magri-9636a5213/",
-    bio: "Senior Lecturer in Cryptography at the University of Manchester. Specialises in advanced cryptographic primitives and multi-party computation.",
-    tags: ["MPC", "Cryptographic Primitives", "U. Manchester"],
-  },
-  {
-    role: "Co-Principal Investigator (Co-PI)",
+    role: "Principal Investigator (PI)",
     name: "Dr. Behzad Abdolmaleki",
     photo: ASSETS.teamBehzad,
     linkedin: "https://www.linkedin.com/in/behzad-abdolmaleki-0384472b7/",
