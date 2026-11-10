@@ -32,7 +32,7 @@ export const NAV_LINKS = [
 
 export const TEAM_MEMBERS = [
   {
-    role: "Co-Principal Investigator (Co-PI)",
+    role: "Principal Investigator (PI)",
     name: "Dr. Behzad Abdolmaleki",
     photo: ASSETS.teamBehzad,
     linkedin: "https://www.linkedin.com/in/behzad-abdolmaleki-0384472b7/",
