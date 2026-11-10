@@ -35,7 +35,7 @@ export function ResearchCredibilityStrip() {
             >
               CyberASAP
             </a>{" "}
-            programme — cross-institutional research across Manchester and Sheffield.
+            programme — University of Sheffield research.
           </p>
         </div>
         <div className="flex flex-wrap gap-2">

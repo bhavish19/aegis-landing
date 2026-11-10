@@ -11,7 +11,7 @@ export function TeamSection() {
         <SectionHeading
           eyebrow="Research team"
           title="Built in the lab, not a slide deck"
-          description="Lead investigators from Manchester and Sheffield, with commercial development led from Sheffield."
+          description="Lead investigators and commercial development based at the University of Sheffield."
           centered
         />
 

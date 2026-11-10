@@ -42,7 +42,7 @@ export default function AegisLandingPage() {
           <div className="mx-auto max-w-6xl px-6">
             <div className="max-w-2xl">
               <p className="text-sm text-aegis-slate-lo">
-                University of Manchester × University of Sheffield
+                University of Sheffield
               </p>
 
               <h1 className="mt-5 font-display text-[clamp(2.75rem,6vw,4.5rem)] font-bold leading-[1.08] tracking-[-0.03em] text-aegis-white">
