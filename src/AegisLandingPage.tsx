@@ -3,6 +3,7 @@ import { ChevronRight, Lock, Mail, ShieldAlert, Users } from "lucide-react";
 import {
   ASSETS,
   CONTACT_EMAIL,
+  DEMO_URL,
   PARTNER_LOGO_BOX_COMPACT,
   PARTNER_LOGO_SURFACE,
   TAGLINE,
@@ -65,15 +66,24 @@ export default function AegisLandingPage() {
 
               <div className="mt-8 flex flex-wrap gap-3">
                 <a
+                  href={DEMO_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-md bg-aegis-teal px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-aegis-teal-bright focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-aegis-teal-bright"
+                >
+                  Try the demo
+                  <ChevronRight className="h-4 w-4" aria-hidden="true" />
+                  <span className="sr-only">(opens in a new tab)</span>
+                </a>
+                <a
                   href="#technology"
-                  className="inline-flex items-center gap-2 rounded-md bg-aegis-teal px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-aegis-teal-bright"
+                  className="inline-flex items-center gap-2 rounded-md border border-white/[0.12] px-5 py-2.5 text-sm font-medium text-aegis-slate-hi transition-colors hover:border-white/25 hover:text-aegis-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-aegis-teal-bright"
                 >
                   How it works
-                  <ChevronRight className="h-4 w-4" />
                 </a>
                 <a
                   href="#contact"
-                  className="inline-flex items-center gap-2 rounded-md border border-white/[0.12] px-5 py-2.5 text-sm font-medium text-aegis-slate-hi transition-colors hover:border-white/25 hover:text-aegis-white"
+                  className="inline-flex items-center gap-2 rounded-md border border-white/[0.12] px-5 py-2.5 text-sm font-medium text-aegis-slate-hi transition-colors hover:border-white/25 hover:text-aegis-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-aegis-teal-bright"
                 >
                   Request a pilot
                 </a>

@@ -2,6 +2,7 @@
 
 interface ImportMetaEnv {
   readonly VITE_FORMSPREE_FORM_ID?: string;
+  readonly VITE_DEMO_URL?: string;
 }
 
 interface ImportMeta {
