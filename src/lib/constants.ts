@@ -10,6 +10,8 @@ export const TAGLINE = "Compliance without Compromise";
 export const CONTACT_EMAIL = "b.mohee@sheffield.ac.uk";
 export const CYBERASAP_URL = "https://www.cyberasap.co.uk/";
 export const SITE_URL = "https://aegis-proof.vercel.app";
+export const DEMO_URL =
+  import.meta.env.VITE_DEMO_URL ?? "https://aegis-poc-delta.vercel.app";
 export const FORMSPREE_FORM_ID =
   import.meta.env.VITE_FORMSPREE_FORM_ID ?? "xdarkzpd";
 
